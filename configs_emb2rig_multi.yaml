@@ -4,11 +4,11 @@ CHARACTER_NAME: ['L36_233', 'L36_230', 'L36_230_61']
 save_root: /project/qiuf/expr-capture
 # mae_emb_cartoon2,mae_dissymm_v5,mae_affectnet, mae_emb, repvit, mobilevit
 emb_backbone: mobilevit_relu
-mode: 'train'
+mode: 'test'
 # DATA
 faceware_ratio: 0.1
 only_render: False
-# training
+# trainings
 batch_size: 16
 lr: 0.00001
 lr_D: 0.000001
